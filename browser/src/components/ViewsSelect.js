@@ -9,35 +9,54 @@ import FormControl from '@mui/material/FormControl';
 import Select from '@mui/material/Select';
 
 function ViewsSelect(layout) {
-    
+
     // Destructuring the variables passed down from the parent component into their own variables
     const { setTopLeft, setTopRight, setBottomLeft, setBottomRight, topLeft, topRight, bottomLeft, bottomRight } = layout.layout;
 
     // Array of views that can be chosen from as drop down options
-    const views = ['Type', 'Schema', 'Focus', 'Class Hierarchy', 'Statistics', 'Search', 'Map', 'Empty']
-    
+    const views = [
+        'Type',
+        'Schema',
+        'Focus',
+        'Class Hierarchy',
+        'Statistics',
+        'Search',
+        'Map',
+        'Item List',
+        'Item Description',
+        'Empty'
+    ]
+
     // Array to map through for setting up the view select
     const quadrants = [
-        { name: 'Top Left',
-        id: 'top-left',
-        value: topLeft,
-        valueString: 'topLeft',
-        set: setTopLeft}, 
-        { name: 'Top Right',
-        id: 'top-right',
-        value: topRight,
-        valueString: 'topRight',
-        set: setTopRight}, 
-        { name: 'Bottom Left',
-        id: 'bottom-left',
-        value: bottomLeft,
-        valueString: 'bottomLeft',
-        set: setBottomLeft }, 
-        { name: 'Bottom Right',
-        id: 'bottom-right',
-        value: bottomRight,
-        valueString: 'bottomRight',
-        set: setBottomRight }
+        {
+            name: 'Top Left',
+            id: 'top-left',
+            value: topLeft,
+            valueString: 'topLeft',
+            set: setTopLeft
+        },
+        {
+            name: 'Top Right',
+            id: 'top-right',
+            value: topRight,
+            valueString: 'topRight',
+            set: setTopRight
+        },
+        {
+            name: 'Bottom Left',
+            id: 'bottom-left',
+            value: bottomLeft,
+            valueString: 'bottomLeft',
+            set: setBottomLeft
+        },
+        {
+            name: 'Bottom Right',
+            id: 'bottom-right',
+            value: bottomRight,
+            valueString: 'bottomRight',
+            set: setBottomRight
+        }
     ];
 
     // Initialize variables for state and function to control it
@@ -48,7 +67,7 @@ function ViewsSelect(layout) {
     };
     const handleClose = () => {
         setAnchorEl(null);
-    };   
+    };
 
     let hidden = 'Show';
 
@@ -87,7 +106,7 @@ function ViewsSelect(layout) {
                 >
 
                     {quadrants.map((quadrant) => (
-                        
+
                         <FormControl sx={{ m: 1, minWidth: 100 }} size="small" key={quadrant.id}>
                             <InputLabel id={quadrant.id + "-label"}>{quadrant.name}</InputLabel>
                             <Select
