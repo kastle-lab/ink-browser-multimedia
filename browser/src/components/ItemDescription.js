@@ -4,9 +4,9 @@ function ItemDescription({ itemName, itemDescription }) {
 
     return (
         <>
-            <div className='description-top'>
+            <div className='search-top'>
                 <h2 className='left-search'>
-                    {itemName}
+                    {itemName ? itemName : "Item Description"}
                 </h2>
             </div>
 
