@@ -9,6 +9,7 @@ import LeafMap from './LeafMap'
 import QueryEndpoint from './QueryEndpoint';
 import ItemList from "./ItemList";
 import ItemDescription from "./ItemDescription"
+import Video from "./Video";
 
 function Layout(layout) {
 
@@ -158,6 +159,14 @@ function Layout(layout) {
         </div>
     );
 
+    const video = (
+        <div className="quadrant" key={"video"}>
+            <Video
+                setItemInVideoData={setItemInVideoData}
+            ></Video>
+        </div>
+    )
+
     const empty = <div className='quadrant' key={'empty'}></div>;
 
     // Array that holds view data to be mapped through for rendering
@@ -171,6 +180,7 @@ function Layout(layout) {
         {viewString: 'Map', viewComponent: map},
         {viewString: 'Item List', viewComponent: itemsInVideoList},
         {viewString: 'Item Description', viewComponent: itemInVideoDescription},
+        {viewString: 'Video', viewComponent: video},
         {viewString: 'Empty', viewComponent: empty},
     ]
 

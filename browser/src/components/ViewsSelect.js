@@ -24,6 +24,7 @@ function ViewsSelect(layout) {
         'Map',
         'Item List',
         'Item Description',
+        'Video',
         'Empty'
     ]
 
