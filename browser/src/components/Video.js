@@ -4,6 +4,8 @@ import YouTube from "react-youtube";
 
 function Video({ setItemInVideoData }) {
 
+    const [videoId, setVideoId] = useState("y7sXDpffzQQ");
+
     const opts = {
         height: '390',
         width: '640',
@@ -16,7 +18,7 @@ function Video({ setItemInVideoData }) {
     return (
         <div>
             <YouTube
-                videoId="y7sXDpffzQQ"
+                videoId={videoId}
                 opts={opts}
                 onPause={(_) => {
                     setItemInVideoData(getVideoContent())
