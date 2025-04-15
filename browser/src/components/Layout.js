@@ -27,39 +27,14 @@ function Layout(layout) {
 
     const [itemInVideoData, setItemInVideoData] = useState([
         {
-            name: "This",
+            name: "Please Press Pause Button to ",
             summary: "Lorem Ipsum",
-            description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. " +
-                "Pellentesque lacinia euismod ullamcorper. Suspendisse pretium egestas metus, " +
-                "ut rhoncus diam condimentum non. In hac habitasse platea dictumst. " +
-                "Maecenas iaculis nisi sed magna vehicula, vitae ornare justo rutrum. " +
-                "Suspendisse lacinia libero erat, nec vehicula lectus tempor vitae. " +
-                "Vivamus vitae orci augue. Morbi sit amet diam sit amet leo pharetra rutrum vitae et eros. " +
-                "Sed aliquam magna sem, blandit tempor ipsum ornare ut. " +
-                "Sed porttitor sollicitudin ligula bibendum tempus. " +
-                "Fusce pharetra augue erat, quis feugiat risus bibendum quis.",
+            description: "Details of the topics will be extracted here, please pause the video and press the topic name in item list.",
         },
         {
-            name: "That",
+            name: "to View the Topics on Screen !",
             summary: "Canterbury Tales",
-            description: "Whan that Aprille with his shoures soote,\n" +
-                "The droghte of March hath perced to the roote,\n" +
-                "And bathed every veyne in swich licóur\n" +
-                "Of which vertú engendred is the flour;\n" +
-                "Whan Zephirus eek with his swete breeth\n" +
-                "Inspired hath in every holt and heeth\n" +
-                "The tendre croppes, and the yonge sonne\n" +
-                "Hath in the Ram his halfe cours y-ronne,\n" +
-                "And smale foweles maken melodye,\n" +
-                "That slepen al the nyght with open ye,\n" +
-                "So priketh hem Natúre in hir corages,\n" +
-                "Thanne longen folk to goon on pilgrimages,\n" +
-                "And palmeres for to seken straunge strondes,\n" +
-                "To ferne halwes, kowthe in sondry londes;\n" +
-                "And specially, from every shires ende\n" +
-                "Of Engelond, to Caunterbury they wende,\n" +
-                "The hooly blisful martir for to seke,\n" +
-                "That hem hath holpen whan that they were seeke.",
+            description: "Details of the topics will be extracted here, please pause the video and press the topic name in item list.",
         },
     ]);
     const [itemDescriptionName, setItemDescriptionName] = useState();
@@ -151,7 +126,7 @@ function Layout(layout) {
     );
 
     const itemInVideoDescription = (
-        <div className="quadrant" key={"itemInVideoDescription"}>
+        <div className="quadrant" key={"itemInVideoDescription"} style={{overflowY: "scroll"}}>
             <ItemDescription
                 itemName={itemDescriptionName}
                 itemDescription={itemDescriptionBody}
