@@ -11,7 +11,7 @@ function ItemDescription({ itemName, itemDescription }) {
             </div>
 
             <div className='description-bottom'>
-                <h3>{itemDescription}</h3>
+                <p >{itemDescription}</p>
             </div>
         </>
     )
