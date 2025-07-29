@@ -4,7 +4,7 @@ WORKDIR /app
 
 COPY ./browser/package.json .
 
-RUN npm install
+RUN npm install react-youtube
 
 COPY ./browser .
 

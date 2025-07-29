@@ -38,14 +38,14 @@ function ItemList({ itemData, setItemDescriptionName, setItemDescriptionBody }) 
                     <Table stickyHeader aria-label="customized table">
                         <TableHead>
                             <TableRow>
-                                <StyledTableCell>Name</StyledTableCell>
-                                <StyledTableCell>Summary</StyledTableCell>
+                                <StyledTableCell>Topics</StyledTableCell>
+                                {/* <StyledTableCell>Summary</StyledTableCell> */}
                             </TableRow>
                         </TableHead>
                         <TableBody>
                             {itemData && itemData.map((item) => (
                                 <StyledTableRow
-                                    key={item}
+                                    // key={item}
                                     onClick={() => {
                                         setItemDescriptionName(item.name);
                                         setItemDescriptionBody(item.description);
@@ -56,9 +56,9 @@ function ItemList({ itemData, setItemDescriptionName, setItemDescriptionBody }) 
                                         {item.name}
                                     </StyledTableCell>
 
-                                    <StyledTableCell className='table-cell'>
+                                    {/* <StyledTableCell className='table-cell'>
                                         {item.summary}
-                                    </StyledTableCell>
+                                    </StyledTableCell> */}
 
                                 </StyledTableRow>
                             ))}
