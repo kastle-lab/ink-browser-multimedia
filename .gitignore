@@ -1,2 +1,8 @@
 server/node_modules
 node_modules
+
+# Ignore all node_modules folders recursively
+**/node_modules/
+
+# macOS system file
+.DS_Store
