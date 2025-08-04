@@ -10,6 +10,7 @@ import QueryEndpoint from './QueryEndpoint';
 import ItemList from "./ItemList";
 import ItemDescription from "./ItemDescription"
 import Video from "./Video";
+import HelperUserGuide from './HelperUserGuide';
 
 function Layout(layout) {
 
@@ -126,12 +127,12 @@ function Layout(layout) {
     );
 
     const itemInVideoDescription = (
-        <div className="quadrant" key={"itemInVideoDescription"} style={{overflowY: "scroll"}}>
-            <ItemDescription
-                itemName={itemDescriptionName}
-                itemDescription={itemDescriptionBody}
-            ></ItemDescription>
-        </div>
+            <div className="quadrant" key={"itemInVideoDescription"} style={{overflowY: "scroll"}}>
+                <ItemDescription
+                    itemName={itemDescriptionName}
+                    itemDescription={itemDescriptionBody}
+                ></ItemDescription>
+            </div>
     );
 
     const video = (
@@ -142,7 +143,9 @@ function Layout(layout) {
         </div>
     )
 
-    const empty = <div className='quadrant' key={'empty'}></div>;
+    const empty =( <div className='quadrant' key={'empty'}>
+        <HelperUserGuide> </HelperUserGuide>
+    </div>);
 
     // Array that holds view data to be mapped through for rendering
     const views = [
