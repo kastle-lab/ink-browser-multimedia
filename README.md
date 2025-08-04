@@ -1,4 +1,4 @@
-# ink-browser
+# ink-browser-multimedia [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0) [![License: CC BY-SA 4.0](https://img.shields.io/badge/License-CC%20BY--SA%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-sa/4.0/)
 
 ## Docker Browser
 - Navigate to the main repo folder
@@ -66,3 +66,15 @@
     - Click `add data`
     - Select the two files under `/data` in the main repo
     - Click `upload all`
+
+### License
+
+- **Code and Project Source** in this repository (The Original InK Browser source) is licensed under the [GNU General Public License 3.0](./LICENSE).
+- **Ontology** (schema files, diagrams, usecases, competency questions, sample and survey data) is licensed under the  
+  [Creative Commons Attribution-ShareAlike 4.0 International License](./LICENSE.ontology).  
+  This includes:
+  - RDF/OWL files (`.ttl`, `.owl`)
+  - Schema diagrams & Analysis data (`.graphml`, `.png`, `.pdf`)
+  - Initial data loaded into the browser
+ 
+  By contributing, you agree to license your contributions under these same terms.
