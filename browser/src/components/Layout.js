@@ -126,12 +126,12 @@ function Layout(layout) {
     );
 
     const itemInVideoDescription = (
-        <div className="quadrant" key={"itemInVideoDescription"} style={{overflowY: "scroll"}}>
-            <ItemDescription
-                itemName={itemDescriptionName}
-                itemDescription={itemDescriptionBody}
-            ></ItemDescription>
-        </div>
+            <div className="quadrant" key={"itemInVideoDescription"} style={{overflowY: "scroll"}}>
+                <ItemDescription
+                    itemName={itemDescriptionName}
+                    itemDescription={itemDescriptionBody}
+                ></ItemDescription>
+            </div>
     );
 
     const video = (

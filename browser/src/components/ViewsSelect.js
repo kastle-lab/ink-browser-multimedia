@@ -78,7 +78,7 @@ function ViewsSelect(layout) {
 
     return (
         <>
-
+            <Tooltip title="Select the window view you want for Top Left, Top Right, Bottom Left and Bottom Right">
             {/* Menu to change views when screen gets too small */}
             <div className={`views-menu ${hidden}`}>
 
@@ -159,7 +159,7 @@ function ViewsSelect(layout) {
                     ))}
                 </div>
             </div>
-
+            </Tooltip>
         </>
     )
 }

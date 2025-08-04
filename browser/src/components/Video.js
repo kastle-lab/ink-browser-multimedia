@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import YouTube from 'react-youtube';
 import TextField from '@mui/material/TextField';
 import Button from '@mui/material/Button';
+import Tooltip from '@mui/material/Tooltip';
 
 function Video({ setItemInVideoData }) {
   const [videoId, setVideoId] = useState("xc32OQoYvOw");
@@ -23,7 +24,9 @@ function Video({ setItemInVideoData }) {
   }
 
   return (
+  
     <div style={{width: '100%', height: '100%', objectFit: 'cover', display: 'flex', flexDirection: 'column' }}>
+      <Tooltip title="VideoID of the youtube videos that you want to understand through Ink Browser" arrow>
     <div className='right-search' style={{ width: '100%', paddingBottom: '5px' }}>
         <TextField
             style={{ width: '100%' }}
@@ -35,6 +38,7 @@ function Video({ setItemInVideoData }) {
         />
         <Button onClick={() => setVideoId(videoSearch)} variant="contained">Enter</Button>
     </div>
+    </Tooltip>
     <YouTube
         style={{width: '100%', height: '100%'}}
         videoId={videoId}
