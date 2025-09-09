@@ -9,7 +9,7 @@ import TableHead from '@mui/material/TableHead';
 import TableRow from '@mui/material/TableRow';
 import { styled } from '@mui/material/styles';
 
-function ItemList({ itemData, setItemDescriptionName, setItemDescriptionBody }) {
+function ItemList({ itemData, setItemDescriptionName, setItemDescriptionBody, setItemDescriptionReferences }) {
 
     const StyledTableCell = styled(TableCell)(({ theme }) => ({
         [`&.${tableCellClasses.head}`]: {
@@ -49,6 +49,8 @@ function ItemList({ itemData, setItemDescriptionName, setItemDescriptionBody }) 
                                     onClick={() => {
                                         setItemDescriptionName(item.name);
                                         setItemDescriptionBody(item.description);
+                                        setItemDescriptionReferences(item.references)
+
                                     }}
                                 >
 

@@ -39,6 +39,7 @@ function Layout(layout) {
     ]);
     const [itemDescriptionName, setItemDescriptionName] = useState();
     const [itemDescriptionBody, setItemDescriptionBody] = useState();
+    const [itemDescriptionReferences, setItemDescriptionReferences] = useState();
 
     const [selected, setSelected] = useState();
 
@@ -121,6 +122,7 @@ function Layout(layout) {
                 itemData={itemInVideoData}
                 setItemDescriptionName={setItemDescriptionName}
                 setItemDescriptionBody={setItemDescriptionBody}
+                setItemDescriptionReferences={setItemDescriptionReferences}
             ></ItemList>
         </div>
     );
@@ -130,6 +132,7 @@ function Layout(layout) {
             <ItemDescription
                 itemName={itemDescriptionName}
                 itemDescription={itemDescriptionBody}
+                itemDescriptionReferences={itemDescriptionReferences}
             ></ItemDescription>
         </div>
     );
