@@ -93,17 +93,23 @@ export async function processOcrRequest(req, res) {
     console.log("Normalized Keywords:", keywords);
 
     // Enrich keywords.
-    const enrichedKeywords = await Promise.all(
-      keywords.map(async (keyword) => {
-        const moduleDescription = await getModuleDescriptionForKeyword(keyword);
-        return {
-          name: keyword,
-          summary: `Keyword: ${keyword}`,
-          description:
-            moduleDescription || `No module details available for ${keyword}.`,
-        };
-      })
-    );
+    const enrichedKeywords = (
+      await Promise.all(
+        keywords.map(async (keyword) => {
+          const moduleDescription = await getModuleDescriptionForKeyword(
+            keyword
+          );
+          if (moduleDescription && !moduleDescription.startsWith("No module")) {
+            return {
+              name: keyword,
+              summary: `Keyword: ${keyword}`,
+              description: moduleDescription,
+            };
+          }
+          return null; // filter out unavailable modules
+        })
+      )
+    ).filter(Boolean); // remove nulls
     console.log("Enriched Keywords:", enrichedKeywords);
 
     res.json({ keywords: enrichedKeywords });
