@@ -8,6 +8,7 @@ import TableContainer from '@mui/material/TableContainer';
 import TableHead from '@mui/material/TableHead';
 import TableRow from '@mui/material/TableRow';
 import { styled } from '@mui/material/styles';
+import Tooltip from '@mui/material/Tooltip';
 
 function ItemList({ itemData, setItemDescriptionName, setItemDescriptionBody }) {
 
@@ -38,7 +39,11 @@ function ItemList({ itemData, setItemDescriptionName, setItemDescriptionBody }) 
                     <Table stickyHeader aria-label="customized table">
                         <TableHead>
                             <TableRow>
-                                <StyledTableCell>Topics</StyledTableCell>
+                                <StyledTableCell>
+                                <Tooltip title="Topics Extracted From the paused frame which modules are available under open-kg-curriculum" arrow>
+                                    Topics
+                                </Tooltip>
+                                    </StyledTableCell>
                                 {/* <StyledTableCell>Summary</StyledTableCell> */}
                             </TableRow>
                         </TableHead>
