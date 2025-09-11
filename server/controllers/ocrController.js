@@ -34,12 +34,17 @@ export async function processOcrRequest(req, res) {
     const framesDir = path.join(tmpDir, `${videoId}_frames`);
     await fs.mkdir(framesDir, { recursive: true });
 
-    // Download video using yt-dlp.
-    const videoUrl = `https://www.youtube.com/watch?v=${videoId}`;
-    const downloadCmd = `yt-dlp -f best -o "${videoPath}" "${videoUrl}"`;
-    console.log(`Downloading video: ${downloadCmd}`);
-    await execPromise(downloadCmd);
-    console.log(`Downloaded video to ${videoPath}`);
+  try {
+      await fs.access(videoPath);
+      console.log(`Using cached video at ${videoPath}`);
+    } catch {
+      const videoUrl = `https://www.youtube.com/watch?v=${videoId}`;
+      const downloadCmd = `yt-dlp -f best -o "${videoPath}" "${videoUrl}"`;
+      console.log(`Downloading video: ${downloadCmd}`);
+      await execPromise(downloadCmd);
+      console.log(`Downloaded video to ${videoPath}`);
+      await waitForFile(videoPath);
+    }
 
     // Wait for file to actually be ready
     await waitForFile(videoPath);
