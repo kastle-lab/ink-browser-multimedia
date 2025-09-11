@@ -1,4 +1,5 @@
-import React from "react";
+import React from 'react'
+import Tooltip from '@mui/material/Tooltip';
 
 const WIKI_LOGO = "https://upload.wikimedia.org/wikipedia/commons/6/63/Wikipedia-logo.png";
 const YT_LOGO = "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Logo_of_YouTube_%282015-2017%29.svg/1280px-Logo_of_YouTube_%282015-2017%29.svg.png";
@@ -74,7 +75,7 @@ function ItemDescription({ itemName, itemDescription, itemDescriptionReferences 
   return (
     <>
       <div className="search-top">
-        <h2 className="left-search">{itemName ? capitalizedTitleName : "Item Description"}</h2>
+        <h2 className="left-search">{itemName ? capitalizedTitleName : <Tooltip title="Detailed of the Topics extracted from the frames available under open-kg-curriculum" arrow>Item Description</Tooltip>}</h2>
       </div>
 
       <div className="description-bottom">
