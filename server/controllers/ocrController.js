@@ -107,7 +107,7 @@ export async function processOcrRequest(req, res) {
             return {
               name: keyword,
               summary: `Keyword: ${keyword}`,
-              description: moduleDescription || `No module details available for ${keyword}.`,
+              description: moduleDescription || `No module details avaisslable for ${keyword}.`,
               references,
               hasReferences: references.length > 0
             };

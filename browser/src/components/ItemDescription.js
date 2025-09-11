@@ -17,6 +17,7 @@ function ItemDescription({ itemName, itemDescription, itemDescriptionReferences 
     if (u.includes("google.com/search")) return "search";
     return "link";
   };
+  console.log("item", {itemDescription})
 
   const renderCard = (url, idx) => {
     if (!url) return null;
@@ -79,8 +80,10 @@ function ItemDescription({ itemName, itemDescription, itemDescriptionReferences 
       </div>
 
       <div className="description-bottom">
-        <p>{itemDescription ? itemDescription : "No description available."}</p>
-        {itemDescription  &&
+      {itemDescription  &&
+        <p>{itemDescription ? itemDescription : "No description available."}</p>}
+       
+        {itemDescription !== undefined  && !itemDescription.startsWith("No module details available for") &&
         <div className="references mt-4" style={{ marginTop: 12 }}>
           <h3 style={{ fontWeight: "bold", marginTop: 10 }}>Related Resources</h3>
 
