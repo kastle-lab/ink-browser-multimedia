@@ -6,7 +6,7 @@ import os from "os";
 import path from "path";
 import { execPromise } from "../utils/execPromise.js";
 import { normalizeKeyword } from "../utils/stringUtils.js";
-import { getModuleDescriptionForKeyword } from "../utils/githubUtils.js";
+import { getModuleDescriptionForKeyword, getReferenceLinks } from "../utils/githubUtils.js";
 
 async function waitForFile(filePath, retries = 10, delay = 300) {
   for (let i = 0; i < retries; i++) {
@@ -101,14 +101,15 @@ export async function processOcrRequest(req, res) {
     const enrichedKeywords = (
       await Promise.all(
         keywords.map(async (keyword) => {
-          const moduleDescription = await getModuleDescriptionForKeyword(
-            keyword
-          );
+          const moduleDescription = await getModuleDescriptionForKeyword(keyword)
+            const references = await getReferenceLinks(keyword);
           if (moduleDescription && !moduleDescription.startsWith("No module")) {
             return {
               name: keyword,
               summary: `Keyword: ${keyword}`,
-              description: moduleDescription,
+              description: moduleDescription || `No module details avaisslable for ${keyword}.`,
+              references,
+              hasReferences: references.length > 0
             };
           }
           return null; // filter out unavailable modules
