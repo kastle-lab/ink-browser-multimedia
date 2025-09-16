@@ -10,6 +10,7 @@ function Topbar(layout) {
 
       {/* Div for the left section of the top bar */}
       <div className="topbar-left">
+        
         <Tooltip title="A user friendly tool that assists on educating a person that is interested in Knowledge Graph theory and applications." arrow>
         <h1 style={{ cursor: 'help' }}>Ink Browser</h1>
         </Tooltip>
