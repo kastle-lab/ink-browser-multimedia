@@ -102,6 +102,46 @@
 
 - This view will serve as a step-by-step interactive guide to help new users understand and navigate Ink Browser.
 
+## Ink Browser (Running the Ink Broswser Locally)
+
+- Clone the Repository.
+- Download the Docker Desktop and initiate it.
+- Run the docker:
+
+  - sudo docker run -d --name apache-jena-fuseki -p 3030:3030 apache-jena-fuseki:latest
+
+- Build the docker:
+- sudo docker build -f Dockerfile -t ink-browser:latest .
+- If necessary (to remove the docker build)
+  - sudo docker rm -f ink-browser
+- Running the Server
+
+  - Download and install Node.js from:
+    https://nodejs.org/en/download
+  - After installation, open Command Prompt or PowerShell or Mac Terminal and run:
+
+    - node -v
+    - npm -v
+
+      - Windows users:
+
+        - Install Chocolatey (Package Manager) and packages.
+          Open PowerShell as Administrator.
+
+        `choco install ffmpeg -y`,
+        `choco install yt-dlp -y`
+
+        - Reference: https://chocolatey.org/install
+
+      - Mac Users:
+        - `brew install ffmpeg -y`
+        - `brew install yt-dlp -y`
+
+  - In new Terminal, Run Backend (Node.js Server)
+    `cd server`
+    `npm install`
+    `node server.js`
+
 ### License
 
 - **Code and Project Source** in this repository (The Original InK Browser source) is licensed under the [GNU General Public License 3.0](./LICENSE).
