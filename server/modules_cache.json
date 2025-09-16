@@ -1,0 +1,786 @@
+[
+  {
+    "name": "Class_and_Subclass",
+    "path": "curriculum/modules/Class_and_Subclass",
+    "sha": "05ab13d4bc49f30d25c6a9ae0f40ba5325982b5b",
+    "size": 0,
+    "url": "https://api.github.com/repos/KGConf/open-kg-curriculum/contents/curriculum/modules/Class_and_Subclass?ref=master",
+    "html_url": "https://github.com/KGConf/open-kg-curriculum/tree/master/curriculum/modules/Class_and_Subclass",
+    "git_url": "https://api.github.com/repos/KGConf/open-kg-curriculum/git/trees/05ab13d4bc49f30d25c6a9ae0f40ba5325982b5b",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/KGConf/open-kg-curriculum/contents/curriculum/modules/Class_and_Subclass?ref=master",
+      "git": "https://api.github.com/repos/KGConf/open-kg-curriculum/git/trees/05ab13d4bc49f30d25c6a9ae0f40ba5325982b5b",
+      "html": "https://github.com/KGConf/open-kg-curriculum/tree/master/curriculum/modules/Class_and_Subclass"
+    }
+  },
+  {
+    "name": "Datalog",
+    "path": "curriculum/modules/Datalog",
+    "sha": "6d525e77927855c899b46b8e6441d3f9b792c476",
+    "size": 0,
+    "url": "https://api.github.com/repos/KGConf/open-kg-curriculum/contents/curriculum/modules/Datalog?ref=master",
+    "html_url": "https://github.com/KGConf/open-kg-curriculum/tree/master/curriculum/modules/Datalog",
+    "git_url": "https://api.github.com/repos/KGConf/open-kg-curriculum/git/trees/6d525e77927855c899b46b8e6441d3f9b792c476",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/KGConf/open-kg-curriculum/contents/curriculum/modules/Datalog?ref=master",
+      "git": "https://api.github.com/repos/KGConf/open-kg-curriculum/git/trees/6d525e77927855c899b46b8e6441d3f9b792c476",
+      "html": "https://github.com/KGConf/open-kg-curriculum/tree/master/curriculum/modules/Datalog"
+    }
+  },
+  {
+    "name": "Deploying_a_Knowledge_Graph",
+    "path": "curriculum/modules/Deploying_a_Knowledge_Graph",
+    "sha": "a403ae080e4ceb584dc62521cf2116b0082a12db",
+    "size": 0,
+    "url": "https://api.github.com/repos/KGConf/open-kg-curriculum/contents/curriculum/modules/Deploying_a_Knowledge_Graph?ref=master",
+    "html_url": "https://github.com/KGConf/open-kg-curriculum/tree/master/curriculum/modules/Deploying_a_Knowledge_Graph",
+    "git_url": "https://api.github.com/repos/KGConf/open-kg-curriculum/git/trees/a403ae080e4ceb584dc62521cf2116b0082a12db",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/KGConf/open-kg-curriculum/contents/curriculum/modules/Deploying_a_Knowledge_Graph?ref=master",
+      "git": "https://api.github.com/repos/KGConf/open-kg-curriculum/git/trees/a403ae080e4ceb584dc62521cf2116b0082a12db",
+      "html": "https://github.com/KGConf/open-kg-curriculum/tree/master/curriculum/modules/Deploying_a_Knowledge_Graph"
+    }
+  },
+  {
+    "name": "Description_Logic",
+    "path": "curriculum/modules/Description_Logic",
+    "sha": "27c54ee6ee2aee4e6f14724e884628b73dfbfeb1",
+    "size": 0,
+    "url": "https://api.github.com/repos/KGConf/open-kg-curriculum/contents/curriculum/modules/Description_Logic?ref=master",
+    "html_url": "https://github.com/KGConf/open-kg-curriculum/tree/master/curriculum/modules/Description_Logic",
+    "git_url": "https://api.github.com/repos/KGConf/open-kg-curriculum/git/trees/27c54ee6ee2aee4e6f14724e884628b73dfbfeb1",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/KGConf/open-kg-curriculum/contents/curriculum/modules/Description_Logic?ref=master",
+      "git": "https://api.github.com/repos/KGConf/open-kg-curriculum/git/trees/27c54ee6ee2aee4e6f14724e884628b73dfbfeb1",
+      "html": "https://github.com/KGConf/open-kg-curriculum/tree/master/curriculum/modules/Description_Logic"
+    }
+  },
+  {
+    "name": "Dublin_Core",
+    "path": "curriculum/modules/Dublin_Core",
+    "sha": "187d51834286a1ddc49977007f3042d33ae90899",
+    "size": 0,
+    "url": "https://api.github.com/repos/KGConf/open-kg-curriculum/contents/curriculum/modules/Dublin_Core?ref=master",
+    "html_url": "https://github.com/KGConf/open-kg-curriculum/tree/master/curriculum/modules/Dublin_Core",
+    "git_url": "https://api.github.com/repos/KGConf/open-kg-curriculum/git/trees/187d51834286a1ddc49977007f3042d33ae90899",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/KGConf/open-kg-curriculum/contents/curriculum/modules/Dublin_Core?ref=master",
+      "git": "https://api.github.com/repos/KGConf/open-kg-curriculum/git/trees/187d51834286a1ddc49977007f3042d33ae90899",
+      "html": "https://github.com/KGConf/open-kg-curriculum/tree/master/curriculum/modules/Dublin_Core"
+    }
+  },
+  {
+    "name": "Entailment_Regimes",
+    "path": "curriculum/modules/Entailment_Regimes",
+    "sha": "8b686e05e07b163b7ea826b99eb8e36aa66d8b4b",
+    "size": 0,
+    "url": "https://api.github.com/repos/KGConf/open-kg-curriculum/contents/curriculum/modules/Entailment_Regimes?ref=master",
+    "html_url": "https://github.com/KGConf/open-kg-curriculum/tree/master/curriculum/modules/Entailment_Regimes",
+    "git_url": "https://api.github.com/repos/KGConf/open-kg-curriculum/git/trees/8b686e05e07b163b7ea826b99eb8e36aa66d8b4b",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/KGConf/open-kg-curriculum/contents/curriculum/modules/Entailment_Regimes?ref=master",
+      "git": "https://api.github.com/repos/KGConf/open-kg-curriculum/git/trees/8b686e05e07b163b7ea826b99eb8e36aa66d8b4b",
+      "html": "https://github.com/KGConf/open-kg-curriculum/tree/master/curriculum/modules/Entailment_Regimes"
+    }
+  },
+  {
+    "name": "GraphQL",
+    "path": "curriculum/modules/GraphQL",
+    "sha": "e71fed1a4c497baf827bbac833767297b5b1c181",
+    "size": 0,
+    "url": "https://api.github.com/repos/KGConf/open-kg-curriculum/contents/curriculum/modules/GraphQL?ref=master",
+    "html_url": "https://github.com/KGConf/open-kg-curriculum/tree/master/curriculum/modules/GraphQL",
+    "git_url": "https://api.github.com/repos/KGConf/open-kg-curriculum/git/trees/e71fed1a4c497baf827bbac833767297b5b1c181",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/KGConf/open-kg-curriculum/contents/curriculum/modules/GraphQL?ref=master",
+      "git": "https://api.github.com/repos/KGConf/open-kg-curriculum/git/trees/e71fed1a4c497baf827bbac833767297b5b1c181",
+      "html": "https://github.com/KGConf/open-kg-curriculum/tree/master/curriculum/modules/GraphQL"
+    }
+  },
+  {
+    "name": "History_of_the_Semantic_Web",
+    "path": "curriculum/modules/History_of_the_Semantic_Web",
+    "sha": "b5c772a6bf971d57743862e66eabf83e1395e663",
+    "size": 0,
+    "url": "https://api.github.com/repos/KGConf/open-kg-curriculum/contents/curriculum/modules/History_of_the_Semantic_Web?ref=master",
+    "html_url": "https://github.com/KGConf/open-kg-curriculum/tree/master/curriculum/modules/History_of_the_Semantic_Web",
+    "git_url": "https://api.github.com/repos/KGConf/open-kg-curriculum/git/trees/b5c772a6bf971d57743862e66eabf83e1395e663",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/KGConf/open-kg-curriculum/contents/curriculum/modules/History_of_the_Semantic_Web?ref=master",
+      "git": "https://api.github.com/repos/KGConf/open-kg-curriculum/git/trees/b5c772a6bf971d57743862e66eabf83e1395e663",
+      "html": "https://github.com/KGConf/open-kg-curriculum/tree/master/curriculum/modules/History_of_the_Semantic_Web"
+    }
+  },
+  {
+    "name": "Introduction_to_Discrete_Mathematics",
+    "path": "curriculum/modules/Introduction_to_Discrete_Mathematics",
+    "sha": "cee847c4be0591c8af7a035e975c8363e3be5d76",
+    "size": 0,
+    "url": "https://api.github.com/repos/KGConf/open-kg-curriculum/contents/curriculum/modules/Introduction_to_Discrete_Mathematics?ref=master",
+    "html_url": "https://github.com/KGConf/open-kg-curriculum/tree/master/curriculum/modules/Introduction_to_Discrete_Mathematics",
+    "git_url": "https://api.github.com/repos/KGConf/open-kg-curriculum/git/trees/cee847c4be0591c8af7a035e975c8363e3be5d76",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/KGConf/open-kg-curriculum/contents/curriculum/modules/Introduction_to_Discrete_Mathematics?ref=master",
+      "git": "https://api.github.com/repos/KGConf/open-kg-curriculum/git/trees/cee847c4be0591c8af7a035e975c8363e3be5d76",
+      "html": "https://github.com/KGConf/open-kg-curriculum/tree/master/curriculum/modules/Introduction_to_Discrete_Mathematics"
+    }
+  },
+  {
+    "name": "Introduction_to_Knowledge_Engineering",
+    "path": "curriculum/modules/Introduction_to_Knowledge_Engineering",
+    "sha": "16cd8e6f1c78a4e5c469acec55cf8cd43f313c75",
+    "size": 0,
+    "url": "https://api.github.com/repos/KGConf/open-kg-curriculum/contents/curriculum/modules/Introduction_to_Knowledge_Engineering?ref=master",
+    "html_url": "https://github.com/KGConf/open-kg-curriculum/tree/master/curriculum/modules/Introduction_to_Knowledge_Engineering",
+    "git_url": "https://api.github.com/repos/KGConf/open-kg-curriculum/git/trees/16cd8e6f1c78a4e5c469acec55cf8cd43f313c75",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/KGConf/open-kg-curriculum/contents/curriculum/modules/Introduction_to_Knowledge_Engineering?ref=master",
+      "git": "https://api.github.com/repos/KGConf/open-kg-curriculum/git/trees/16cd8e6f1c78a4e5c469acec55cf8cd43f313c75",
+      "html": "https://github.com/KGConf/open-kg-curriculum/tree/master/curriculum/modules/Introduction_to_Knowledge_Engineering"
+    }
+  },
+  {
+    "name": "Introduction_to_Logic",
+    "path": "curriculum/modules/Introduction_to_Logic",
+    "sha": "9d9cbebc3b0e0150fede474035b46c3998852592",
+    "size": 0,
+    "url": "https://api.github.com/repos/KGConf/open-kg-curriculum/contents/curriculum/modules/Introduction_to_Logic?ref=master",
+    "html_url": "https://github.com/KGConf/open-kg-curriculum/tree/master/curriculum/modules/Introduction_to_Logic",
+    "git_url": "https://api.github.com/repos/KGConf/open-kg-curriculum/git/trees/9d9cbebc3b0e0150fede474035b46c3998852592",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/KGConf/open-kg-curriculum/contents/curriculum/modules/Introduction_to_Logic?ref=master",
+      "git": "https://api.github.com/repos/KGConf/open-kg-curriculum/git/trees/9d9cbebc3b0e0150fede474035b46c3998852592",
+      "html": "https://github.com/KGConf/open-kg-curriculum/tree/master/curriculum/modules/Introduction_to_Logic"
+    }
+  },
+  {
+    "name": "Introduction_to_Modular_Ontologies",
+    "path": "curriculum/modules/Introduction_to_Modular_Ontologies",
+    "sha": "012d2ead7c2b245b1828dd8d18373702ed689c3c",
+    "size": 0,
+    "url": "https://api.github.com/repos/KGConf/open-kg-curriculum/contents/curriculum/modules/Introduction_to_Modular_Ontologies?ref=master",
+    "html_url": "https://github.com/KGConf/open-kg-curriculum/tree/master/curriculum/modules/Introduction_to_Modular_Ontologies",
+    "git_url": "https://api.github.com/repos/KGConf/open-kg-curriculum/git/trees/012d2ead7c2b245b1828dd8d18373702ed689c3c",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/KGConf/open-kg-curriculum/contents/curriculum/modules/Introduction_to_Modular_Ontologies?ref=master",
+      "git": "https://api.github.com/repos/KGConf/open-kg-curriculum/git/trees/012d2ead7c2b245b1828dd8d18373702ed689c3c",
+      "html": "https://github.com/KGConf/open-kg-curriculum/tree/master/curriculum/modules/Introduction_to_Modular_Ontologies"
+    }
+  },
+  {
+    "name": "Introduction_to_Set_Theory",
+    "path": "curriculum/modules/Introduction_to_Set_Theory",
+    "sha": "8cc6447fa71dc82d6377b9d79039f79fcf9136ba",
+    "size": 0,
+    "url": "https://api.github.com/repos/KGConf/open-kg-curriculum/contents/curriculum/modules/Introduction_to_Set_Theory?ref=master",
+    "html_url": "https://github.com/KGConf/open-kg-curriculum/tree/master/curriculum/modules/Introduction_to_Set_Theory",
+    "git_url": "https://api.github.com/repos/KGConf/open-kg-curriculum/git/trees/8cc6447fa71dc82d6377b9d79039f79fcf9136ba",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/KGConf/open-kg-curriculum/contents/curriculum/modules/Introduction_to_Set_Theory?ref=master",
+      "git": "https://api.github.com/repos/KGConf/open-kg-curriculum/git/trees/8cc6447fa71dc82d6377b9d79039f79fcf9136ba",
+      "html": "https://github.com/KGConf/open-kg-curriculum/tree/master/curriculum/modules/Introduction_to_Set_Theory"
+    }
+  },
+  {
+    "name": "Introduction_to_Upper_Ontologies",
+    "path": "curriculum/modules/Introduction_to_Upper_Ontologies",
+    "sha": "c50ad29d483b60bf9c0b3adcefe16a8e73328eba",
+    "size": 0,
+    "url": "https://api.github.com/repos/KGConf/open-kg-curriculum/contents/curriculum/modules/Introduction_to_Upper_Ontologies?ref=master",
+    "html_url": "https://github.com/KGConf/open-kg-curriculum/tree/master/curriculum/modules/Introduction_to_Upper_Ontologies",
+    "git_url": "https://api.github.com/repos/KGConf/open-kg-curriculum/git/trees/c50ad29d483b60bf9c0b3adcefe16a8e73328eba",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/KGConf/open-kg-curriculum/contents/curriculum/modules/Introduction_to_Upper_Ontologies?ref=master",
+      "git": "https://api.github.com/repos/KGConf/open-kg-curriculum/git/trees/c50ad29d483b60bf9c0b3adcefe16a8e73328eba",
+      "html": "https://github.com/KGConf/open-kg-curriculum/tree/master/curriculum/modules/Introduction_to_Upper_Ontologies"
+    }
+  },
+  {
+    "name": "Manchester_Syntax",
+    "path": "curriculum/modules/Manchester_Syntax",
+    "sha": "6428591963c081efd70e39f8249c627735f4a73f",
+    "size": 0,
+    "url": "https://api.github.com/repos/KGConf/open-kg-curriculum/contents/curriculum/modules/Manchester_Syntax?ref=master",
+    "html_url": "https://github.com/KGConf/open-kg-curriculum/tree/master/curriculum/modules/Manchester_Syntax",
+    "git_url": "https://api.github.com/repos/KGConf/open-kg-curriculum/git/trees/6428591963c081efd70e39f8249c627735f4a73f",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/KGConf/open-kg-curriculum/contents/curriculum/modules/Manchester_Syntax?ref=master",
+      "git": "https://api.github.com/repos/KGConf/open-kg-curriculum/git/trees/6428591963c081efd70e39f8249c627735f4a73f",
+      "html": "https://github.com/KGConf/open-kg-curriculum/tree/master/curriculum/modules/Manchester_Syntax"
+    }
+  },
+  {
+    "name": "Nanopublications",
+    "path": "curriculum/modules/Nanopublications",
+    "sha": "d0fd7b8ba5c7c92253f119ff52b9d9f6f56b2883",
+    "size": 0,
+    "url": "https://api.github.com/repos/KGConf/open-kg-curriculum/contents/curriculum/modules/Nanopublications?ref=master",
+    "html_url": "https://github.com/KGConf/open-kg-curriculum/tree/master/curriculum/modules/Nanopublications",
+    "git_url": "https://api.github.com/repos/KGConf/open-kg-curriculum/git/trees/d0fd7b8ba5c7c92253f119ff52b9d9f6f56b2883",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/KGConf/open-kg-curriculum/contents/curriculum/modules/Nanopublications?ref=master",
+      "git": "https://api.github.com/repos/KGConf/open-kg-curriculum/git/trees/d0fd7b8ba5c7c92253f119ff52b9d9f6f56b2883",
+      "html": "https://github.com/KGConf/open-kg-curriculum/tree/master/curriculum/modules/Nanopublications"
+    }
+  },
+  {
+    "name": "OWL",
+    "path": "curriculum/modules/OWL",
+    "sha": "9a61206b089b950bcf239d15da8c0759c2b9e674",
+    "size": 0,
+    "url": "https://api.github.com/repos/KGConf/open-kg-curriculum/contents/curriculum/modules/OWL?ref=master",
+    "html_url": "https://github.com/KGConf/open-kg-curriculum/tree/master/curriculum/modules/OWL",
+    "git_url": "https://api.github.com/repos/KGConf/open-kg-curriculum/git/trees/9a61206b089b950bcf239d15da8c0759c2b9e674",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/KGConf/open-kg-curriculum/contents/curriculum/modules/OWL?ref=master",
+      "git": "https://api.github.com/repos/KGConf/open-kg-curriculum/git/trees/9a61206b089b950bcf239d15da8c0759c2b9e674",
+      "html": "https://github.com/KGConf/open-kg-curriculum/tree/master/curriculum/modules/OWL"
+    }
+  },
+  {
+    "name": "OWL_Dialects",
+    "path": "curriculum/modules/OWL_Dialects",
+    "sha": "451049a1afe559db183fcf57d807057a4b6fb46b",
+    "size": 0,
+    "url": "https://api.github.com/repos/KGConf/open-kg-curriculum/contents/curriculum/modules/OWL_Dialects?ref=master",
+    "html_url": "https://github.com/KGConf/open-kg-curriculum/tree/master/curriculum/modules/OWL_Dialects",
+    "git_url": "https://api.github.com/repos/KGConf/open-kg-curriculum/git/trees/451049a1afe559db183fcf57d807057a4b6fb46b",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/KGConf/open-kg-curriculum/contents/curriculum/modules/OWL_Dialects?ref=master",
+      "git": "https://api.github.com/repos/KGConf/open-kg-curriculum/git/trees/451049a1afe559db183fcf57d807057a4b6fb46b",
+      "html": "https://github.com/KGConf/open-kg-curriculum/tree/master/curriculum/modules/OWL_Dialects"
+    }
+  },
+  {
+    "name": "Open_World_Assumption_vs_Closed_World_Assumption",
+    "path": "curriculum/modules/Open_World_Assumption_vs_Closed_World_Assumption",
+    "sha": "22dea04a121b1fd1bf403767eb404b9920b77df2",
+    "size": 0,
+    "url": "https://api.github.com/repos/KGConf/open-kg-curriculum/contents/curriculum/modules/Open_World_Assumption_vs_Closed_World_Assumption?ref=master",
+    "html_url": "https://github.com/KGConf/open-kg-curriculum/tree/master/curriculum/modules/Open_World_Assumption_vs_Closed_World_Assumption",
+    "git_url": "https://api.github.com/repos/KGConf/open-kg-curriculum/git/trees/22dea04a121b1fd1bf403767eb404b9920b77df2",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/KGConf/open-kg-curriculum/contents/curriculum/modules/Open_World_Assumption_vs_Closed_World_Assumption?ref=master",
+      "git": "https://api.github.com/repos/KGConf/open-kg-curriculum/git/trees/22dea04a121b1fd1bf403767eb404b9920b77df2",
+      "html": "https://github.com/KGConf/open-kg-curriculum/tree/master/curriculum/modules/Open_World_Assumption_vs_Closed_World_Assumption"
+    }
+  },
+  {
+    "name": "PROV-O",
+    "path": "curriculum/modules/PROV-O",
+    "sha": "ebfdf4e43a33eaa3fabceedf15511acaa06ce4bb",
+    "size": 0,
+    "url": "https://api.github.com/repos/KGConf/open-kg-curriculum/contents/curriculum/modules/PROV-O?ref=master",
+    "html_url": "https://github.com/KGConf/open-kg-curriculum/tree/master/curriculum/modules/PROV-O",
+    "git_url": "https://api.github.com/repos/KGConf/open-kg-curriculum/git/trees/ebfdf4e43a33eaa3fabceedf15511acaa06ce4bb",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/KGConf/open-kg-curriculum/contents/curriculum/modules/PROV-O?ref=master",
+      "git": "https://api.github.com/repos/KGConf/open-kg-curriculum/git/trees/ebfdf4e43a33eaa3fabceedf15511acaa06ce4bb",
+      "html": "https://github.com/KGConf/open-kg-curriculum/tree/master/curriculum/modules/PROV-O"
+    }
+  },
+  {
+    "name": "Predicate_Logic",
+    "path": "curriculum/modules/Predicate_Logic",
+    "sha": "f8aeedcda709fa06b25566b40ba5b840ff95330d",
+    "size": 0,
+    "url": "https://api.github.com/repos/KGConf/open-kg-curriculum/contents/curriculum/modules/Predicate_Logic?ref=master",
+    "html_url": "https://github.com/KGConf/open-kg-curriculum/tree/master/curriculum/modules/Predicate_Logic",
+    "git_url": "https://api.github.com/repos/KGConf/open-kg-curriculum/git/trees/f8aeedcda709fa06b25566b40ba5b840ff95330d",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/KGConf/open-kg-curriculum/contents/curriculum/modules/Predicate_Logic?ref=master",
+      "git": "https://api.github.com/repos/KGConf/open-kg-curriculum/git/trees/f8aeedcda709fa06b25566b40ba5b840ff95330d",
+      "html": "https://github.com/KGConf/open-kg-curriculum/tree/master/curriculum/modules/Predicate_Logic"
+    }
+  },
+  {
+    "name": "Properties",
+    "path": "curriculum/modules/Properties",
+    "sha": "1f4ba994ddf48516acfaf6d2825e433d07fee552",
+    "size": 0,
+    "url": "https://api.github.com/repos/KGConf/open-kg-curriculum/contents/curriculum/modules/Properties?ref=master",
+    "html_url": "https://github.com/KGConf/open-kg-curriculum/tree/master/curriculum/modules/Properties",
+    "git_url": "https://api.github.com/repos/KGConf/open-kg-curriculum/git/trees/1f4ba994ddf48516acfaf6d2825e433d07fee552",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/KGConf/open-kg-curriculum/contents/curriculum/modules/Properties?ref=master",
+      "git": "https://api.github.com/repos/KGConf/open-kg-curriculum/git/trees/1f4ba994ddf48516acfaf6d2825e433d07fee552",
+      "html": "https://github.com/KGConf/open-kg-curriculum/tree/master/curriculum/modules/Properties"
+    }
+  },
+  {
+    "name": "Property_Graphs",
+    "path": "curriculum/modules/Property_Graphs",
+    "sha": "05c01190af51c20bbfde070e3e63623e55e40397",
+    "size": 0,
+    "url": "https://api.github.com/repos/KGConf/open-kg-curriculum/contents/curriculum/modules/Property_Graphs?ref=master",
+    "html_url": "https://github.com/KGConf/open-kg-curriculum/tree/master/curriculum/modules/Property_Graphs",
+    "git_url": "https://api.github.com/repos/KGConf/open-kg-curriculum/git/trees/05c01190af51c20bbfde070e3e63623e55e40397",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/KGConf/open-kg-curriculum/contents/curriculum/modules/Property_Graphs?ref=master",
+      "git": "https://api.github.com/repos/KGConf/open-kg-curriculum/git/trees/05c01190af51c20bbfde070e3e63623e55e40397",
+      "html": "https://github.com/KGConf/open-kg-curriculum/tree/master/curriculum/modules/Property_Graphs"
+    }
+  },
+  {
+    "name": "Propositional_Logic",
+    "path": "curriculum/modules/Propositional_Logic",
+    "sha": "48630a6eaf9feac902edb5fdea6cd257009dfbd9",
+    "size": 0,
+    "url": "https://api.github.com/repos/KGConf/open-kg-curriculum/contents/curriculum/modules/Propositional_Logic?ref=master",
+    "html_url": "https://github.com/KGConf/open-kg-curriculum/tree/master/curriculum/modules/Propositional_Logic",
+    "git_url": "https://api.github.com/repos/KGConf/open-kg-curriculum/git/trees/48630a6eaf9feac902edb5fdea6cd257009dfbd9",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/KGConf/open-kg-curriculum/contents/curriculum/modules/Propositional_Logic?ref=master",
+      "git": "https://api.github.com/repos/KGConf/open-kg-curriculum/git/trees/48630a6eaf9feac902edb5fdea6cd257009dfbd9",
+      "html": "https://github.com/KGConf/open-kg-curriculum/tree/master/curriculum/modules/Propositional_Logic"
+    }
+  },
+  {
+    "name": "Protege",
+    "path": "curriculum/modules/Protege",
+    "sha": "31e7a79569446ac7f40d5411ca4dd0459d097188",
+    "size": 0,
+    "url": "https://api.github.com/repos/KGConf/open-kg-curriculum/contents/curriculum/modules/Protege?ref=master",
+    "html_url": "https://github.com/KGConf/open-kg-curriculum/tree/master/curriculum/modules/Protege",
+    "git_url": "https://api.github.com/repos/KGConf/open-kg-curriculum/git/trees/31e7a79569446ac7f40d5411ca4dd0459d097188",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/KGConf/open-kg-curriculum/contents/curriculum/modules/Protege?ref=master",
+      "git": "https://api.github.com/repos/KGConf/open-kg-curriculum/git/trees/31e7a79569446ac7f40d5411ca4dd0459d097188",
+      "html": "https://github.com/KGConf/open-kg-curriculum/tree/master/curriculum/modules/Protege"
+    }
+  },
+  {
+    "name": "RDF",
+    "path": "curriculum/modules/RDF",
+    "sha": "476d46b99981b0e59cadb4d0045b48aa10541ec5",
+    "size": 0,
+    "url": "https://api.github.com/repos/KGConf/open-kg-curriculum/contents/curriculum/modules/RDF?ref=master",
+    "html_url": "https://github.com/KGConf/open-kg-curriculum/tree/master/curriculum/modules/RDF",
+    "git_url": "https://api.github.com/repos/KGConf/open-kg-curriculum/git/trees/476d46b99981b0e59cadb4d0045b48aa10541ec5",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/KGConf/open-kg-curriculum/contents/curriculum/modules/RDF?ref=master",
+      "git": "https://api.github.com/repos/KGConf/open-kg-curriculum/git/trees/476d46b99981b0e59cadb4d0045b48aa10541ec5",
+      "html": "https://github.com/KGConf/open-kg-curriculum/tree/master/curriculum/modules/RDF"
+    }
+  },
+  {
+    "name": "RDFS",
+    "path": "curriculum/modules/RDFS",
+    "sha": "d50bf4e84325287129650bf5f186f7a83ad14d3b",
+    "size": 0,
+    "url": "https://api.github.com/repos/KGConf/open-kg-curriculum/contents/curriculum/modules/RDFS?ref=master",
+    "html_url": "https://github.com/KGConf/open-kg-curriculum/tree/master/curriculum/modules/RDFS",
+    "git_url": "https://api.github.com/repos/KGConf/open-kg-curriculum/git/trees/d50bf4e84325287129650bf5f186f7a83ad14d3b",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/KGConf/open-kg-curriculum/contents/curriculum/modules/RDFS?ref=master",
+      "git": "https://api.github.com/repos/KGConf/open-kg-curriculum/git/trees/d50bf4e84325287129650bf5f186f7a83ad14d3b",
+      "html": "https://github.com/KGConf/open-kg-curriculum/tree/master/curriculum/modules/RDFS"
+    }
+  },
+  {
+    "name": "RDF_Plus",
+    "path": "curriculum/modules/RDF_Plus",
+    "sha": "f2e072bcbe2ff09a61bd716b08456f0783093af8",
+    "size": 0,
+    "url": "https://api.github.com/repos/KGConf/open-kg-curriculum/contents/curriculum/modules/RDF_Plus?ref=master",
+    "html_url": "https://github.com/KGConf/open-kg-curriculum/tree/master/curriculum/modules/RDF_Plus",
+    "git_url": "https://api.github.com/repos/KGConf/open-kg-curriculum/git/trees/f2e072bcbe2ff09a61bd716b08456f0783093af8",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/KGConf/open-kg-curriculum/contents/curriculum/modules/RDF_Plus?ref=master",
+      "git": "https://api.github.com/repos/KGConf/open-kg-curriculum/git/trees/f2e072bcbe2ff09a61bd716b08456f0783093af8",
+      "html": "https://github.com/KGConf/open-kg-curriculum/tree/master/curriculum/modules/RDF_Plus"
+    }
+  },
+  {
+    "name": "RDF_Serializations",
+    "path": "curriculum/modules/RDF_Serializations",
+    "sha": "7d9df99f5364e81180774c61f2bc1abd81dccacc",
+    "size": 0,
+    "url": "https://api.github.com/repos/KGConf/open-kg-curriculum/contents/curriculum/modules/RDF_Serializations?ref=master",
+    "html_url": "https://github.com/KGConf/open-kg-curriculum/tree/master/curriculum/modules/RDF_Serializations",
+    "git_url": "https://api.github.com/repos/KGConf/open-kg-curriculum/git/trees/7d9df99f5364e81180774c61f2bc1abd81dccacc",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/KGConf/open-kg-curriculum/contents/curriculum/modules/RDF_Serializations?ref=master",
+      "git": "https://api.github.com/repos/KGConf/open-kg-curriculum/git/trees/7d9df99f5364e81180774c61f2bc1abd81dccacc",
+      "html": "https://github.com/KGConf/open-kg-curriculum/tree/master/curriculum/modules/RDF_Serializations"
+    }
+  },
+  {
+    "name": "RDF_Star",
+    "path": "curriculum/modules/RDF_Star",
+    "sha": "549c98308b99ce63e3720f0c9d148af42047791b",
+    "size": 0,
+    "url": "https://api.github.com/repos/KGConf/open-kg-curriculum/contents/curriculum/modules/RDF_Star?ref=master",
+    "html_url": "https://github.com/KGConf/open-kg-curriculum/tree/master/curriculum/modules/RDF_Star",
+    "git_url": "https://api.github.com/repos/KGConf/open-kg-curriculum/git/trees/549c98308b99ce63e3720f0c9d148af42047791b",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/KGConf/open-kg-curriculum/contents/curriculum/modules/RDF_Star?ref=master",
+      "git": "https://api.github.com/repos/KGConf/open-kg-curriculum/git/trees/549c98308b99ce63e3720f0c9d148af42047791b",
+      "html": "https://github.com/KGConf/open-kg-curriculum/tree/master/curriculum/modules/RDF_Star"
+    }
+  },
+  {
+    "name": "README.md",
+    "path": "curriculum/modules/README.md",
+    "sha": "9d7d71debd68ed3950ff1fbcfd4dd0e3081183ef",
+    "size": 9033,
+    "url": "https://api.github.com/repos/KGConf/open-kg-curriculum/contents/curriculum/modules/README.md?ref=master",
+    "html_url": "https://github.com/KGConf/open-kg-curriculum/blob/master/curriculum/modules/README.md",
+    "git_url": "https://api.github.com/repos/KGConf/open-kg-curriculum/git/blobs/9d7d71debd68ed3950ff1fbcfd4dd0e3081183ef",
+    "download_url": "https://raw.githubusercontent.com/KGConf/open-kg-curriculum/master/curriculum/modules/README.md",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/KGConf/open-kg-curriculum/contents/curriculum/modules/README.md?ref=master",
+      "git": "https://api.github.com/repos/KGConf/open-kg-curriculum/git/blobs/9d7d71debd68ed3950ff1fbcfd4dd0e3081183ef",
+      "html": "https://github.com/KGConf/open-kg-curriculum/blob/master/curriculum/modules/README.md"
+    }
+  },
+  {
+    "name": "Reification",
+    "path": "curriculum/modules/Reification",
+    "sha": "3c852383ade9cfda1a7a804dd13a128ff3444902",
+    "size": 0,
+    "url": "https://api.github.com/repos/KGConf/open-kg-curriculum/contents/curriculum/modules/Reification?ref=master",
+    "html_url": "https://github.com/KGConf/open-kg-curriculum/tree/master/curriculum/modules/Reification",
+    "git_url": "https://api.github.com/repos/KGConf/open-kg-curriculum/git/trees/3c852383ade9cfda1a7a804dd13a128ff3444902",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/KGConf/open-kg-curriculum/contents/curriculum/modules/Reification?ref=master",
+      "git": "https://api.github.com/repos/KGConf/open-kg-curriculum/git/trees/3c852383ade9cfda1a7a804dd13a128ff3444902",
+      "html": "https://github.com/KGConf/open-kg-curriculum/tree/master/curriculum/modules/Reification"
+    }
+  },
+  {
+    "name": "Rules",
+    "path": "curriculum/modules/Rules",
+    "sha": "df93cb4e105b8676fede1e33dbcde223cadf69ea",
+    "size": 0,
+    "url": "https://api.github.com/repos/KGConf/open-kg-curriculum/contents/curriculum/modules/Rules?ref=master",
+    "html_url": "https://github.com/KGConf/open-kg-curriculum/tree/master/curriculum/modules/Rules",
+    "git_url": "https://api.github.com/repos/KGConf/open-kg-curriculum/git/trees/df93cb4e105b8676fede1e33dbcde223cadf69ea",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/KGConf/open-kg-curriculum/contents/curriculum/modules/Rules?ref=master",
+      "git": "https://api.github.com/repos/KGConf/open-kg-curriculum/git/trees/df93cb4e105b8676fede1e33dbcde223cadf69ea",
+      "html": "https://github.com/KGConf/open-kg-curriculum/tree/master/curriculum/modules/Rules"
+    }
+  },
+  {
+    "name": "SHACL",
+    "path": "curriculum/modules/SHACL",
+    "sha": "5a4bcc2add10009893a5e995682842f40dd1f680",
+    "size": 0,
+    "url": "https://api.github.com/repos/KGConf/open-kg-curriculum/contents/curriculum/modules/SHACL?ref=master",
+    "html_url": "https://github.com/KGConf/open-kg-curriculum/tree/master/curriculum/modules/SHACL",
+    "git_url": "https://api.github.com/repos/KGConf/open-kg-curriculum/git/trees/5a4bcc2add10009893a5e995682842f40dd1f680",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/KGConf/open-kg-curriculum/contents/curriculum/modules/SHACL?ref=master",
+      "git": "https://api.github.com/repos/KGConf/open-kg-curriculum/git/trees/5a4bcc2add10009893a5e995682842f40dd1f680",
+      "html": "https://github.com/KGConf/open-kg-curriculum/tree/master/curriculum/modules/SHACL"
+    }
+  },
+  {
+    "name": "SKOS",
+    "path": "curriculum/modules/SKOS",
+    "sha": "164f35c840f79ef33fbe42cdc7aa56849b47a682",
+    "size": 0,
+    "url": "https://api.github.com/repos/KGConf/open-kg-curriculum/contents/curriculum/modules/SKOS?ref=master",
+    "html_url": "https://github.com/KGConf/open-kg-curriculum/tree/master/curriculum/modules/SKOS",
+    "git_url": "https://api.github.com/repos/KGConf/open-kg-curriculum/git/trees/164f35c840f79ef33fbe42cdc7aa56849b47a682",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/KGConf/open-kg-curriculum/contents/curriculum/modules/SKOS?ref=master",
+      "git": "https://api.github.com/repos/KGConf/open-kg-curriculum/git/trees/164f35c840f79ef33fbe42cdc7aa56849b47a682",
+      "html": "https://github.com/KGConf/open-kg-curriculum/tree/master/curriculum/modules/SKOS"
+    }
+  },
+  {
+    "name": "SOSA_&_SSN",
+    "path": "curriculum/modules/SOSA_&_SSN",
+    "sha": "07f1a16d236e3036d132cc7d8b0ab374c1510e04",
+    "size": 0,
+    "url": "https://api.github.com/repos/KGConf/open-kg-curriculum/contents/curriculum/modules/SOSA_&_SSN?ref=master",
+    "html_url": "https://github.com/KGConf/open-kg-curriculum/tree/master/curriculum/modules/SOSA_&_SSN",
+    "git_url": "https://api.github.com/repos/KGConf/open-kg-curriculum/git/trees/07f1a16d236e3036d132cc7d8b0ab374c1510e04",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/KGConf/open-kg-curriculum/contents/curriculum/modules/SOSA_&_SSN?ref=master",
+      "git": "https://api.github.com/repos/KGConf/open-kg-curriculum/git/trees/07f1a16d236e3036d132cc7d8b0ab374c1510e04",
+      "html": "https://github.com/KGConf/open-kg-curriculum/tree/master/curriculum/modules/SOSA_&_SSN"
+    }
+  },
+  {
+    "name": "SPARQL",
+    "path": "curriculum/modules/SPARQL",
+    "sha": "f015811b40274d0bc9975f89e2b30dbaec81518c",
+    "size": 0,
+    "url": "https://api.github.com/repos/KGConf/open-kg-curriculum/contents/curriculum/modules/SPARQL?ref=master",
+    "html_url": "https://github.com/KGConf/open-kg-curriculum/tree/master/curriculum/modules/SPARQL",
+    "git_url": "https://api.github.com/repos/KGConf/open-kg-curriculum/git/trees/f015811b40274d0bc9975f89e2b30dbaec81518c",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/KGConf/open-kg-curriculum/contents/curriculum/modules/SPARQL?ref=master",
+      "git": "https://api.github.com/repos/KGConf/open-kg-curriculum/git/trees/f015811b40274d0bc9975f89e2b30dbaec81518c",
+      "html": "https://github.com/KGConf/open-kg-curriculum/tree/master/curriculum/modules/SPARQL"
+    }
+  },
+  {
+    "name": "SWRL",
+    "path": "curriculum/modules/SWRL",
+    "sha": "d152875f0ff83f516f6c2daa93b320a57ca54c23",
+    "size": 0,
+    "url": "https://api.github.com/repos/KGConf/open-kg-curriculum/contents/curriculum/modules/SWRL?ref=master",
+    "html_url": "https://github.com/KGConf/open-kg-curriculum/tree/master/curriculum/modules/SWRL",
+    "git_url": "https://api.github.com/repos/KGConf/open-kg-curriculum/git/trees/d152875f0ff83f516f6c2daa93b320a57ca54c23",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/KGConf/open-kg-curriculum/contents/curriculum/modules/SWRL?ref=master",
+      "git": "https://api.github.com/repos/KGConf/open-kg-curriculum/git/trees/d152875f0ff83f516f6c2daa93b320a57ca54c23",
+      "html": "https://github.com/KGConf/open-kg-curriculum/tree/master/curriculum/modules/SWRL"
+    }
+  },
+  {
+    "name": "Schema.org",
+    "path": "curriculum/modules/Schema.org",
+    "sha": "93ef1e9d211a8d2fe182f1117a8d1e196bb5ec51",
+    "size": 0,
+    "url": "https://api.github.com/repos/KGConf/open-kg-curriculum/contents/curriculum/modules/Schema.org?ref=master",
+    "html_url": "https://github.com/KGConf/open-kg-curriculum/tree/master/curriculum/modules/Schema.org",
+    "git_url": "https://api.github.com/repos/KGConf/open-kg-curriculum/git/trees/93ef1e9d211a8d2fe182f1117a8d1e196bb5ec51",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/KGConf/open-kg-curriculum/contents/curriculum/modules/Schema.org?ref=master",
+      "git": "https://api.github.com/repos/KGConf/open-kg-curriculum/git/trees/93ef1e9d211a8d2fe182f1117a8d1e196bb5ec51",
+      "html": "https://github.com/KGConf/open-kg-curriculum/tree/master/curriculum/modules/Schema.org"
+    }
+  },
+  {
+    "name": "Survey_of_Documentation_Practices",
+    "path": "curriculum/modules/Survey_of_Documentation_Practices",
+    "sha": "8b9b5f5057d70a0abdb681fbd2262ecfbc0c3c7d",
+    "size": 0,
+    "url": "https://api.github.com/repos/KGConf/open-kg-curriculum/contents/curriculum/modules/Survey_of_Documentation_Practices?ref=master",
+    "html_url": "https://github.com/KGConf/open-kg-curriculum/tree/master/curriculum/modules/Survey_of_Documentation_Practices",
+    "git_url": "https://api.github.com/repos/KGConf/open-kg-curriculum/git/trees/8b9b5f5057d70a0abdb681fbd2262ecfbc0c3c7d",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/KGConf/open-kg-curriculum/contents/curriculum/modules/Survey_of_Documentation_Practices?ref=master",
+      "git": "https://api.github.com/repos/KGConf/open-kg-curriculum/git/trees/8b9b5f5057d70a0abdb681fbd2262ecfbc0c3c7d",
+      "html": "https://github.com/KGConf/open-kg-curriculum/tree/master/curriculum/modules/Survey_of_Documentation_Practices"
+    }
+  },
+  {
+    "name": "Survey_of_Modeling_Tools",
+    "path": "curriculum/modules/Survey_of_Modeling_Tools",
+    "sha": "192a3a3b88aa04a6209492b5983f659533089be4",
+    "size": 0,
+    "url": "https://api.github.com/repos/KGConf/open-kg-curriculum/contents/curriculum/modules/Survey_of_Modeling_Tools?ref=master",
+    "html_url": "https://github.com/KGConf/open-kg-curriculum/tree/master/curriculum/modules/Survey_of_Modeling_Tools",
+    "git_url": "https://api.github.com/repos/KGConf/open-kg-curriculum/git/trees/192a3a3b88aa04a6209492b5983f659533089be4",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/KGConf/open-kg-curriculum/contents/curriculum/modules/Survey_of_Modeling_Tools?ref=master",
+      "git": "https://api.github.com/repos/KGConf/open-kg-curriculum/git/trees/192a3a3b88aa04a6209492b5983f659533089be4",
+      "html": "https://github.com/KGConf/open-kg-curriculum/tree/master/curriculum/modules/Survey_of_Modeling_Tools"
+    }
+  },
+  {
+    "name": "Survey_of_Reasoners",
+    "path": "curriculum/modules/Survey_of_Reasoners",
+    "sha": "a706de5765098f0c29eec203365e300cbdfffa59",
+    "size": 0,
+    "url": "https://api.github.com/repos/KGConf/open-kg-curriculum/contents/curriculum/modules/Survey_of_Reasoners?ref=master",
+    "html_url": "https://github.com/KGConf/open-kg-curriculum/tree/master/curriculum/modules/Survey_of_Reasoners",
+    "git_url": "https://api.github.com/repos/KGConf/open-kg-curriculum/git/trees/a706de5765098f0c29eec203365e300cbdfffa59",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/KGConf/open-kg-curriculum/contents/curriculum/modules/Survey_of_Reasoners?ref=master",
+      "git": "https://api.github.com/repos/KGConf/open-kg-curriculum/git/trees/a706de5765098f0c29eec203365e300cbdfffa59",
+      "html": "https://github.com/KGConf/open-kg-curriculum/tree/master/curriculum/modules/Survey_of_Reasoners"
+    }
+  },
+  {
+    "name": "Survey_of_Triplestores",
+    "path": "curriculum/modules/Survey_of_Triplestores",
+    "sha": "ff234ce86f62f1d7e55dd6d0d37e016927d047af",
+    "size": 0,
+    "url": "https://api.github.com/repos/KGConf/open-kg-curriculum/contents/curriculum/modules/Survey_of_Triplestores?ref=master",
+    "html_url": "https://github.com/KGConf/open-kg-curriculum/tree/master/curriculum/modules/Survey_of_Triplestores",
+    "git_url": "https://api.github.com/repos/KGConf/open-kg-curriculum/git/trees/ff234ce86f62f1d7e55dd6d0d37e016927d047af",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/KGConf/open-kg-curriculum/contents/curriculum/modules/Survey_of_Triplestores?ref=master",
+      "git": "https://api.github.com/repos/KGConf/open-kg-curriculum/git/trees/ff234ce86f62f1d7e55dd6d0d37e016927d047af",
+      "html": "https://github.com/KGConf/open-kg-curriculum/tree/master/curriculum/modules/Survey_of_Triplestores"
+    }
+  },
+  {
+    "name": "Survey_of_Visualization_Tools",
+    "path": "curriculum/modules/Survey_of_Visualization_Tools",
+    "sha": "4e0fd870508f9fbe6bcd619757cd56438984978d",
+    "size": 0,
+    "url": "https://api.github.com/repos/KGConf/open-kg-curriculum/contents/curriculum/modules/Survey_of_Visualization_Tools?ref=master",
+    "html_url": "https://github.com/KGConf/open-kg-curriculum/tree/master/curriculum/modules/Survey_of_Visualization_Tools",
+    "git_url": "https://api.github.com/repos/KGConf/open-kg-curriculum/git/trees/4e0fd870508f9fbe6bcd619757cd56438984978d",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/KGConf/open-kg-curriculum/contents/curriculum/modules/Survey_of_Visualization_Tools?ref=master",
+      "git": "https://api.github.com/repos/KGConf/open-kg-curriculum/git/trees/4e0fd870508f9fbe6bcd619757cd56438984978d",
+      "html": "https://github.com/KGConf/open-kg-curriculum/tree/master/curriculum/modules/Survey_of_Visualization_Tools"
+    }
+  },
+  {
+    "name": "What_is_Metadata",
+    "path": "curriculum/modules/What_is_Metadata",
+    "sha": "fff737980dc286f8ecb2dc9861f968bcc7f22412",
+    "size": 0,
+    "url": "https://api.github.com/repos/KGConf/open-kg-curriculum/contents/curriculum/modules/What_is_Metadata?ref=master",
+    "html_url": "https://github.com/KGConf/open-kg-curriculum/tree/master/curriculum/modules/What_is_Metadata",
+    "git_url": "https://api.github.com/repos/KGConf/open-kg-curriculum/git/trees/fff737980dc286f8ecb2dc9861f968bcc7f22412",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/KGConf/open-kg-curriculum/contents/curriculum/modules/What_is_Metadata?ref=master",
+      "git": "https://api.github.com/repos/KGConf/open-kg-curriculum/git/trees/fff737980dc286f8ecb2dc9861f968bcc7f22412",
+      "html": "https://github.com/KGConf/open-kg-curriculum/tree/master/curriculum/modules/What_is_Metadata"
+    }
+  },
+  {
+    "name": "What_is_a_Knowledge_Graph",
+    "path": "curriculum/modules/What_is_a_Knowledge_Graph",
+    "sha": "70d7f92520d2741c98bd8aa2a0c721739b74a754",
+    "size": 0,
+    "url": "https://api.github.com/repos/KGConf/open-kg-curriculum/contents/curriculum/modules/What_is_a_Knowledge_Graph?ref=master",
+    "html_url": "https://github.com/KGConf/open-kg-curriculum/tree/master/curriculum/modules/What_is_a_Knowledge_Graph",
+    "git_url": "https://api.github.com/repos/KGConf/open-kg-curriculum/git/trees/70d7f92520d2741c98bd8aa2a0c721739b74a754",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/KGConf/open-kg-curriculum/contents/curriculum/modules/What_is_a_Knowledge_Graph?ref=master",
+      "git": "https://api.github.com/repos/KGConf/open-kg-curriculum/git/trees/70d7f92520d2741c98bd8aa2a0c721739b74a754",
+      "html": "https://github.com/KGConf/open-kg-curriculum/tree/master/curriculum/modules/What_is_a_Knowledge_Graph"
+    }
+  },
+  {
+    "name": "What_is_a_Taxonomy",
+    "path": "curriculum/modules/What_is_a_Taxonomy",
+    "sha": "0b591a829c6a3767f965fe4bc5a6d86ec364033f",
+    "size": 0,
+    "url": "https://api.github.com/repos/KGConf/open-kg-curriculum/contents/curriculum/modules/What_is_a_Taxonomy?ref=master",
+    "html_url": "https://github.com/KGConf/open-kg-curriculum/tree/master/curriculum/modules/What_is_a_Taxonomy",
+    "git_url": "https://api.github.com/repos/KGConf/open-kg-curriculum/git/trees/0b591a829c6a3767f965fe4bc5a6d86ec364033f",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/KGConf/open-kg-curriculum/contents/curriculum/modules/What_is_a_Taxonomy?ref=master",
+      "git": "https://api.github.com/repos/KGConf/open-kg-curriculum/git/trees/0b591a829c6a3767f965fe4bc5a6d86ec364033f",
+      "html": "https://github.com/KGConf/open-kg-curriculum/tree/master/curriculum/modules/What_is_a_Taxonomy"
+    }
+  },
+  {
+    "name": "What_is_an_Identifier",
+    "path": "curriculum/modules/What_is_an_Identifier",
+    "sha": "991856af2e20e2c906b1e544e51908bb46d67dbb",
+    "size": 0,
+    "url": "https://api.github.com/repos/KGConf/open-kg-curriculum/contents/curriculum/modules/What_is_an_Identifier?ref=master",
+    "html_url": "https://github.com/KGConf/open-kg-curriculum/tree/master/curriculum/modules/What_is_an_Identifier",
+    "git_url": "https://api.github.com/repos/KGConf/open-kg-curriculum/git/trees/991856af2e20e2c906b1e544e51908bb46d67dbb",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/KGConf/open-kg-curriculum/contents/curriculum/modules/What_is_an_Identifier?ref=master",
+      "git": "https://api.github.com/repos/KGConf/open-kg-curriculum/git/trees/991856af2e20e2c906b1e544e51908bb46d67dbb",
+      "html": "https://github.com/KGConf/open-kg-curriculum/tree/master/curriculum/modules/What_is_an_Identifier"
+    }
+  },
+  {
+    "name": "What_is_an_Ontology",
+    "path": "curriculum/modules/What_is_an_Ontology",
+    "sha": "826cc973c207d3266ef281f61285dca0e9b66328",
+    "size": 0,
+    "url": "https://api.github.com/repos/KGConf/open-kg-curriculum/contents/curriculum/modules/What_is_an_Ontology?ref=master",
+    "html_url": "https://github.com/KGConf/open-kg-curriculum/tree/master/curriculum/modules/What_is_an_Ontology",
+    "git_url": "https://api.github.com/repos/KGConf/open-kg-curriculum/git/trees/826cc973c207d3266ef281f61285dca0e9b66328",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/KGConf/open-kg-curriculum/contents/curriculum/modules/What_is_an_Ontology?ref=master",
+      "git": "https://api.github.com/repos/KGConf/open-kg-curriculum/git/trees/826cc973c207d3266ef281f61285dca0e9b66328",
+      "html": "https://github.com/KGConf/open-kg-curriculum/tree/master/curriculum/modules/What_is_an_Ontology"
+    }
+  }
+]
