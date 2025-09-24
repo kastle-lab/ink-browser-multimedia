@@ -102,6 +102,145 @@
 
 - This view will serve as a step-by-step interactive guide to help new users understand and navigate Ink Browser.
 
+---
+
+# First-Time Setup (Complete Installation)
+
+Follow these steps if this is your **first time running Ink Browser**.
+
+### Step 1: Clone Repository
+
+```bash
+git clone git@github.com:kastle-lab/ink-browser-multimedia.git
+cd ink-browser-multimedia
+```
+
+### Step 2: Install Node.js
+
+Download & install Node.js:
+
+- [https://nodejs.org/en/download](https://nodejs.org/en/download)
+
+Verify installation:
+
+```bash
+node -v
+npm -v
+```
+
+### Step 3: Install Multimedia Dependencies
+
+#### Windows
+
+- Install [Chocolatey](https://chocolatey.org/install) (Package Manager).
+- Open **PowerShell as Administrator** and run:
+  ```powershell
+  choco install ffmpeg -y
+  choco install yt-dlp -y
+  ```
+
+#### Mac
+
+- Install via Homebrew:
+  ```bash
+  brew install ffmpeg
+  brew install yt-dlp
+  ```
+
+#### Linux (Debian/Ubuntu)
+
+```bash
+sudo apt update
+sudo apt install ffmpeg -y
+pip install yt-dlp
+```
+
+### Step 4: Setup Backend (Node.js Server)
+
+```bash
+cd server
+npm install
+node server.js
+```
+
+---
+
+# Running the Project First Time
+
+### Build & Run (First Time)
+
+```bash
+docker build -f Dockerfile -t ink-browser:latest .
+docker run -d --name ink-browser -p 3000:3000 ink-browser:latest
+```
+
+### Running the Server
+
+```bash
+cd server
+node server.js
+```
+
+### Restarting Container (After any changes in the Project)
+
+```bash
+docker start ink-browser
+docker stop ink-browser
+```
+
+### Restarting Container - Method 2 (if above doesn't work for you)
+
+```bash
+sudo docker rm -f ink-browser
+docker build -f Dockerfile -t ink-browser:latest .
+docker run -d --name ink-browser -p 3000:3000 ink-browser:latest
+```
+
+### Access the Project at:
+
+- [http://localhost:3000](http://localhost:3000)
+
+---
+
+# Running the Project Afterwards (Returning Users)
+
+Once installed, you can start everything quickly:
+
+- **Start Backend**
+
+  ```bash
+  cd server
+  node server.js
+  ```
+
+- **Start Browser (Docker)**
+
+  ```bash
+  docker start ink-browser
+  ```
+
+- **Optional: Restart Container if Changes is not reflected**
+
+  ```bash
+  sudo docker rm -f ink-browser
+  docker build -f Dockerfile -t ink-browser:latest .
+  docker run -d --name ink-browser -p 3000:3000 ink-browser:latest
+  ```
+
+- **Start Apache Jena Fuseki (Docker)[if required]**
+
+  ```bash
+  docker start apache-jena-fuseki
+  ```
+
+- **Stop Services**
+  ```bash
+  docker stop ink-browser
+  docker stop apache-jena-fuseki
+  ```
+
+---
+
 ### License
 
 - **Code and Project Source** in this repository (The Original InK Browser source) is licensed under the [GNU General Public License 3.0](./LICENSE).
