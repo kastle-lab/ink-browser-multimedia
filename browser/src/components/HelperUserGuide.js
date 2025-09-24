@@ -1,4 +1,7 @@
 import React from 'react';
+// Importing UI components and utilities from Material UI (MUI).
+// MUI provides ready-to-use components like Card, Typography, Lists, Alerts, etc.
+// These help in quickly creating a clean and consistent interface.
 import {
   Card,
   CardContent,
@@ -11,6 +14,9 @@ import {
   ListItemIcon,
   ListItemText
 } from '@mui/material';
+
+// Importing icons from Material UI Icons package.
+// Icons are used here to make each section visually distinct and easier to understand.
 import PlayCircleFilledWhiteIcon from '@mui/icons-material/PlayCircleFilledWhite';
 import SearchIcon from '@mui/icons-material/Search';
 import InfoIcon from '@mui/icons-material/Info';
@@ -21,27 +27,59 @@ import FindInPageIcon from '@mui/icons-material/FindInPage';
 import SchoolIcon from '@mui/icons-material/School';
 import TipsAndUpdatesIcon from '@mui/icons-material/TipsAndUpdates';
 
+/**
+ * HelpGuideView Component
+ *
+ * This is a React functional component that shows a "Help Guide" panel
+ * inside the InK Browser application.
+ *
+ * Purpose:
+ * --------
+ * - To introduce new users (especially students) to the interface.
+ * - To provide a step-by-step guide on how to use the application.
+ * - To give quick tips, alerts, and warnings to enhance the learning experience.
+ *
+ * Structure of this component:
+ * ----------------------------
+ * 1. A Card container that holds everything.
+ * 2. An introduction with the project name and description.
+ * 3. A section explaining the 4 main panels of the interface.
+ * 4. A step-by-step guide on how to use the application.
+ * 5. Helpful alerts/tips at the bottom.
+ *
+ * Note for students:
+ * ------------------
+ * - This component is purely for displaying information (no complex logic).
+ * - Focus is on layout and user guidance.
+ */
 const HelpGuideView = () => {
   return (
+    // Card acts as the main container box with padding and scroll enabled.
     <Card sx={{ maxHeight: '100%', overflowY: 'auto', p: 2 }}>
       <CardContent>
+        {/* Main Title: Welcomes the user to the application */}
         <Typography variant="h4" gutterBottom>
           🎓 Welcome to InK Browser
         </Typography>
 
+        {/* Introductory text: Explains what InK Browser is and what it does */}
         <Typography variant="body1" paragraph>
           <strong>InK Browser</strong> is a visual learning platform that integrates YouTube videos and Knowledge Graphs.
           It enables interactive learning by letting you pause videos, extract keywords from frames, and explore those
           topics in more depth.
         </Typography>
 
+        {/* Divider = a horizontal line to visually separate sections */}
         <Divider sx={{ my: 2 }} />
 
+        {/* Section: Interface Overview */}
         <Typography variant="h5" gutterBottom>
           🗺️ Interface Overview
         </Typography>
 
+        {/* List of the 4 main panels in the interface */}
         <List>
+          {/* Panel 1: YouTube view (top-left) */}
           <ListItem>
             <ListItemIcon><PlayCircleFilledWhiteIcon color="error" /></ListItemIcon>
             <ListItemText
@@ -50,6 +88,7 @@ const HelpGuideView = () => {
             />
           </ListItem>
 
+          {/* Panel 2: Topics extracted (top-right) */}
           <ListItem>
             <ListItemIcon><SearchIcon color="warning" /></ListItemIcon>
             <ListItemText
@@ -58,6 +97,7 @@ const HelpGuideView = () => {
             />
           </ListItem>
 
+          {/* Panel 3: Keyword description (bottom-left) */}
           <ListItem>
             <ListItemIcon><InfoIcon color="primary" /></ListItemIcon>
             <ListItemText
@@ -66,6 +106,7 @@ const HelpGuideView = () => {
             />
           </ListItem>
 
+          {/* Panel 4: Help guide (bottom-right) */}
           <ListItem>
             <ListItemIcon><HelpOutlineIcon color="success" /></ListItemIcon>
             <ListItemText
@@ -75,13 +116,16 @@ const HelpGuideView = () => {
           </ListItem>
         </List>
 
+        {/* Divider before next section */}
         <Divider sx={{ my: 3 }} />
 
+        {/* Section: Step-by-step instructions */}
         <Typography variant="h5" gutterBottom>
           🛠️ How to Use (Step-by-Step)
         </Typography>
 
         <List>
+          {/* Step 1: Select and play a video */}
           <ListItem>
             <ListItemIcon><MovieIcon /></ListItemIcon>
             <ListItemText
@@ -90,6 +134,7 @@ const HelpGuideView = () => {
             />
           </ListItem>
 
+          {/* Step 2: Pause video to extract keywords */}
           <ListItem>
             <ListItemIcon><FindInPageIcon /></ListItemIcon>
             <ListItemText
@@ -98,6 +143,7 @@ const HelpGuideView = () => {
             />
           </ListItem>
 
+          {/* Step 3: Explore extracted keywords */}
           <ListItem>
             <ListItemIcon><SearchIcon /></ListItemIcon>
             <ListItemText
@@ -106,6 +152,7 @@ const HelpGuideView = () => {
             />
           </ListItem>
 
+          {/* Step 4: Read detailed descriptions */}
           <ListItem>
             <ListItemIcon><SchoolIcon /></ListItemIcon>
             <ListItemText
@@ -114,6 +161,7 @@ const HelpGuideView = () => {
             />
           </ListItem>
 
+          {/* Step 5: Use help panel */}
           <ListItem>
             <ListItemIcon><HelpOutlineIcon /></ListItemIcon>
             <ListItemText
@@ -123,8 +171,10 @@ const HelpGuideView = () => {
           </ListItem>
         </List>
 
+        {/* Divider before the tips/alerts */}
         <Divider sx={{ my: 3 }} />
 
+        {/* Helpful alerts for students */}
         <Alert icon={<TipsAndUpdatesIcon />} severity="info" sx={{ mb: 2 }}>
           💡 <strong>Pro Tip:</strong> You can change the layout of views by using the dropdown in each section.
         </Alert>
@@ -141,4 +191,5 @@ const HelpGuideView = () => {
   );
 };
 
+// Exporting the component so it can be imported and used in other files.
 export default HelpGuideView;
