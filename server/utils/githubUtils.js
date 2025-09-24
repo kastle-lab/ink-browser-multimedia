@@ -53,3 +53,12 @@ export async function getModuleDescriptionForKeyword(keyword) {
   }
   return "";
 }
+
+
+export async function getReferenceLinks(keyword) {
+  const links = [];
+  links.push(`https://en.wikipedia.org/wiki/${encodeURIComponent(keyword)}`);
+  links.push(`https://www.youtube.com/results?search_query=${encodeURIComponent(keyword)}`);
+  // links.push(`https://www.google.com/search?q=${encodeURIComponent(keyword)} tutorial`);
+  return links;
+}

@@ -10,6 +10,7 @@ import QueryEndpoint from './QueryEndpoint';
 import ItemList from "./ItemList";
 import ItemDescription from "./ItemDescription"
 import Video from "./Video";
+import HelperUserGuide from './HelperUserGuide';
 
 function Layout(layout) {
 
@@ -39,6 +40,7 @@ function Layout(layout) {
     ]);
     const [itemDescriptionName, setItemDescriptionName] = useState();
     const [itemDescriptionBody, setItemDescriptionBody] = useState();
+    const [itemDescriptionReferences, setItemDescriptionReferences] = useState();
 
     const [selected, setSelected] = useState();
 
@@ -121,6 +123,7 @@ function Layout(layout) {
                 itemData={itemInVideoData}
                 setItemDescriptionName={setItemDescriptionName}
                 setItemDescriptionBody={setItemDescriptionBody}
+                setItemDescriptionReferences={setItemDescriptionReferences}
             ></ItemList>
         </div>
     );
@@ -130,6 +133,7 @@ function Layout(layout) {
             <ItemDescription
                 itemName={itemDescriptionName}
                 itemDescription={itemDescriptionBody}
+                itemDescriptionReferences={itemDescriptionReferences}
             ></ItemDescription>
         </div>
     );
@@ -142,7 +146,9 @@ function Layout(layout) {
         </div>
     )
 
-    const empty = <div className='quadrant' key={'empty'}></div>;
+    const empty =( <div className='quadrant' key={'empty'}>
+        <HelperUserGuide> </HelperUserGuide>
+    </div>);
 
     // Array that holds view data to be mapped through for rendering
     const views = [

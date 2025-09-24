@@ -1,6 +1,7 @@
 import React from 'react'
 import SettingsMenu from './settings_menu/SettingsMenu';
 import ViewsSelect from './ViewsSelect';
+import Tooltip from '@mui/material/Tooltip';
 
 function Topbar(layout) {
 
@@ -9,8 +10,10 @@ function Topbar(layout) {
 
       {/* Div for the left section of the top bar */}
       <div className="topbar-left">
-
-        <h1>ink-browser</h1>
+        
+        <Tooltip title="A user friendly tool that assists on educating a person that is interested in Knowledge Graph theory and applications." arrow>
+        <h1 style={{ cursor: 'help' }}>Ink Browser</h1>
+        </Tooltip>
         
       </div>
 
