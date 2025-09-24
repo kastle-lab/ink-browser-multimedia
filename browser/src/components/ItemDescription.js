@@ -4,16 +4,29 @@ import Tooltip from '@mui/material/Tooltip';
 const WIKI_LOGO = "https://upload.wikimedia.org/wikipedia/commons/6/63/Wikipedia-logo.png";
 const YT_LOGO = "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Logo_of_YouTube_%282015-2017%29.svg/1280px-Logo_of_YouTube_%282015-2017%29.svg.png";
 
-function ItemDescription({ itemName, itemDescription, itemDescriptionReferences = [] }) {
-  const refs = itemDescriptionReferences || [];
-  const firstRef = refs[0];
-  const secondRef = refs[1];
+function ItemDescription({ itemName, itemDescription, itemDescriptionReferences = [], videoId }) {
+  let refs = itemDescriptionReferences || [];
+  let finalRefs = [];
+
+  if (videoId) {
+       const ytUrl = `https://www.youtube.com/watch?v=${videoId}`;
+      // Make sure not to duplicate if it’s already in refs
+      finalRefs.push(ytUrl);
+     }
+  // Add only non-YouTube references (skip duplicate YouTube links)
+  refs.forEach((url) => {
+    if (url && !url.includes("youtube.com") && !url.includes("youtu.be")) {
+      finalRefs.push(url);
+    }
+  });
+
  const capitalizedTitleName = (itemName || '').charAt(0).toUpperCase() + (itemName || '').slice(1);
 
   const getType = (url = "") => {
     const u = url.toLowerCase();
     if (u.includes("wikipedia.org")) return "wikipedia";
-    if (u.includes("youtube.com") || u.includes("youtu.be")) return "youtube";
+    if (u.includes("youtube.com/watch") || u.includes("youtu.be")) return "youtube";
+    // if (u.includes("youtube.com") || u.includes("youtu.be")) return "youtube";
     if (u.includes("google.com/search")) return "search";
     return "link";
   };
@@ -22,6 +35,8 @@ function ItemDescription({ itemName, itemDescription, itemDescriptionReferences 
   const renderCard = (url, idx) => {
     if (!url) return null;
     const type = getType(url);
+    if (type === "search") return null;
+
     const logo = type === "wikipedia" ? WIKI_LOGO : type === "youtube" ? YT_LOGO : null;
     const label =
       type === "wikipedia"
@@ -87,22 +102,21 @@ function ItemDescription({ itemName, itemDescription, itemDescriptionReferences 
         <div className="references mt-4" style={{ marginTop: 12 }}>
           <h3 style={{ fontWeight: "bold", marginTop: 10 }}>Related Resources</h3>
 
-          {!firstRef && !secondRef ? (
-            <p style={{ fontStyle: "italic", color: "#666" }}>No related resources found.</p>
-          ) : (
-            <div
-              style={{
-                display: "flex",
-                gap: 20,
-                alignItems: "flex-start",
-                marginTop: 8,
-                flexWrap: "wrap",
-              }}
-            >
-              {renderCard(firstRef, 0)}
-              {renderCard(secondRef, 1)}
-            </div>
-          )}
+          {finalRefs.length === 0 ? (
+                <p style={{ fontStyle: "italic", color: "#666" }}>No related resources found.</p>
+              ) : (
+                <div
+                  style={{
+                    display: "flex",
+                    gap: 20,
+                    alignItems: "flex-start",
+                    marginTop: 8,
+                    flexWrap: "wrap",
+                  }}
+                >
+                  {finalRefs.map((url, idx) => renderCard(url, idx))}
+                </div>
+              )}
         </div>}
       </div>
     </>

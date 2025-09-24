@@ -39,7 +39,7 @@ export async function processOcrRequest(req, res) {
       console.log(`Using cached video at ${videoPath}`);
     } catch {
       const videoUrl = `https://www.youtube.com/watch?v=${videoId}`;
-      const downloadCmd = `yt-dlp -f best -o "${videoPath}" "${videoUrl}"`;
+      const downloadCmd = `yt-dlp -f "bv*+ba/b" -o "${videoPath}" "${videoUrl}"`;
       console.log(`Downloading video: ${downloadCmd}`);
       await execPromise(downloadCmd);
       console.log(`Downloaded video to ${videoPath}`);
