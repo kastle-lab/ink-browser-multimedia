@@ -25,6 +25,8 @@ function Layout(layout) {
     const [coordinates, setCoordinates] = useState([39.781710, -84.063274]);
     const [dataFromType, setDataFromType] = useState();
     const [connections, setConnections] = useState();
+    const [videoId, setVideoId] = useState("xc32OQoYvOw");
+
 
     const [itemInVideoData, setItemInVideoData] = useState([
         {
@@ -134,6 +136,7 @@ function Layout(layout) {
                 itemName={itemDescriptionName}
                 itemDescription={itemDescriptionBody}
                 itemDescriptionReferences={itemDescriptionReferences}
+                videoId={videoId}
             ></ItemDescription>
         </div>
     );
@@ -142,6 +145,7 @@ function Layout(layout) {
         <div className="quadrant" key={"video"}>
             <Video
                 setItemInVideoData={setItemInVideoData}
+                setVideoId={setVideoId} 
             ></Video>
         </div>
     )

@@ -4,8 +4,8 @@ import TextField from '@mui/material/TextField';
 import Button from '@mui/material/Button';
 import Tooltip from '@mui/material/Tooltip';
 
-function Video({ setItemInVideoData }) {
-  const [videoId, setVideoId] = useState("xc32OQoYvOw");
+function Video({ setItemInVideoData, setVideoId }) {
+  const [videoId, setLocalVideoId] = useState("xc32OQoYvOw");
   const [videoSearch, setVideoSearch] = useState("");
 
   const opts = {
@@ -23,6 +23,11 @@ function Video({ setItemInVideoData }) {
     setItemInVideoData(keywords);
   }
 
+  const handleVideoChange = () => {
+    setLocalVideoId(videoSearch);
+    setVideoId(videoSearch);  // <-- update parent Layout
+  };
+
   return (
   
     <div style={{width: '100%', height: '100%', objectFit: 'cover', display: 'flex', flexDirection: 'column' }}>
@@ -36,7 +41,7 @@ function Video({ setItemInVideoData }) {
             value={videoSearch}
             onChange={(e) => setVideoSearch(e.target.value)}
         />
-        <Button onClick={() => setVideoId(videoSearch)} variant="contained">Enter</Button>
+        <Button onClick={handleVideoChange} variant="contained">Enter</Button>
     </div>
     </Tooltip>
     <YouTube
